@@ -1,0 +1,48 @@
+# Sleep, Screen Time & Stress Analysis 
+
+ระบบวิเคราะห์ความสัมพันธ์ระหว่างเวลานอน, การใช้หน้าจอ และระดับความเครียด 
+โดยใช้ Machine Learning และ LLM-powered insights ผ่าน Gemini API
+
+---
+
+## Setup & Installation
+
+### 1. Clone repository
+```bash
+git clone https://github.com/PattarapongHongkanjanagul/Sleep-Screen-Time-and-Stress-Analysis.git
+cd Sleep-Screen-Time-and-Stress-Analysis
+```
+
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. ตั้งค่า API Key
+```GEMINI_API_KEY = "ํyour_api_key"  
+# ใส่ Gemini API key ของคุณ
+```
+
+> สมัคร API key ได้ที่ [Google AI Studio](https://aistudio.google.com/)
+
+---
+
+## Features
+
+- **EDA** — วิเคราะห์ข้อมูลเบื้องต้น (distribution, correlation heatmap)
+- **ML Model** — Random Forest Classifier พยากรณ์ระดับ stress
+- **LLM Insights** — ใช้ Gemini 2.5 Flash วิเคราะห์ผลและให้คำแนะนำ
+
+---
+
+
+## Requirements
+
+- Python 3.9+
+
+---
+
+## Author
+
+Pattarapong Hongkanjanagul — KMITL  
+Course: Data Analytics 2/2568
